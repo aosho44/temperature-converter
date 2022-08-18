@@ -1,0 +1,33 @@
+#convertBody {
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+	justify-content: center;
+}
+
+#inputDiv {
+	display: flex;
+	flex-direction: row;
+}
+.labelInput {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+label {
+	font-size: 25px;
+}
+
+h1 {
+	text-align: center;
+}
+
+input {
+	border-radius: 5px;
+	background-color: white;
+	border: none;
+	padding: 10px;
+	outline: none;
+}
